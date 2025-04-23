@@ -51,41 +51,47 @@
 
 // EventListener -
 
-let button = document.querySelector(".btn");
-let btn1 = document.querySelector(".btn1");
-let btn2 = document.querySelector(".btn2");
-let btn3 = document.querySelector(".btn3");
-let btn4 = document.querySelector(".btn4");
-let btn5 = document.querySelector(".btn5");
+// let button = document.querySelector(".btn");
+// let btn1 = document.querySelector(".btn1");
+// let btn2 = document.querySelector(".btn2");
+// let btn3 = document.querySelector(".btn3");
+// let btn4 = document.querySelector(".btn4");
+// let btn5 = document.querySelector(".btn5");
 
-let btn = button.addEventListener("click", function () {
-  //   console.log("clicked");
-  alert("clicked");
-});
+// let btn = button.addEventListener("click", function () {
+//   //   console.log("clicked");
+//   alert("clicked");
+// });
 
-let firstBtn = btn1.addEventListener("click", () => {
-  alert("First button Clicked");
-});
+// let firstBtn = btn1.addEventListener("click", () => {
+//   alert("First button Clicked");
+// });
 
-let secondBtn = btn2.addEventListener("click", () => {
-  alert("Second button Clicked");
-});
+// let secondBtn = btn2.addEventListener("click", () => {
+//   alert("Second button Clicked");
+// });
 
-let thirdBtn = btn3.addEventListener("click", () => {
-  console.log("clicked you assessment");
-});
+// let thirdBtn = btn3.addEventListener("click", () => {
+//   console.log("clicked you assessment");
+// });
 
-let fourthBtn = btn4.addEventListener("click", () => {
-  number = number - 1;
+// let fourthBtn = btn4.addEventListener("click", () => {
+//   number = number - 1;
 
-  console.log(number);
-});
+//   console.log(number);
+// });
 
-let number = 0;
+// let number = 0;
 
-let fifthBtn = btn5.addEventListener("click", () => {
-  number = number + 1;
+// let fifthBtn = btn5.addEventListener("click", () => {
+//   number = number + 1;
 
-  console.log(number);
-});
+//   console.log(number);
+// });
 // console.log(button);
+
+// math table
+let x = +prompt("Enter a Number");
+for (let i = 1; i <= 10; i++) {
+  console.log(`${x} x ${i} = ${x * i}`);
+}
