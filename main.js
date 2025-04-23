@@ -91,7 +91,22 @@
 // console.log(button);
 
 // math table
-let x = +prompt("Enter a Number");
-for (let i = 1; i <= 10; i++) {
-  console.log(`${x} x ${i} = ${x * i}`);
-}
+// let x = +prompt("Enter a Number");
+// for (let i = 1; i <= 10; i++) {
+//   console.log(`${x} x ${i} = ${x * i}`);
+// }
+
+//
+
+let input = document.querySelector(".input");
+let btn = document.querySelector(".btn_1");
+
+// console.log(btn);
+
+btn.addEventListener("click", () => {
+  let number = input.value;
+
+  for (let i = 1; i <= 10; i++) {
+    console.log(`${number} x ${i} = ${number * i}`);
+  }
+});
