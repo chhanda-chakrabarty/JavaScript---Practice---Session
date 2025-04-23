@@ -72,14 +72,20 @@ let secondBtn = btn2.addEventListener("click", () => {
 });
 
 let thirdBtn = btn3.addEventListener("click", () => {
-  alert("Third button Clicked");
+  console.log("clicked you assessment");
 });
 
 let fourthBtn = btn4.addEventListener("click", () => {
-  alert("Fourth button Clicked");
+  number = number - 1;
+
+  console.log(number);
 });
 
+let number = 0;
+
 let fifthBtn = btn5.addEventListener("click", () => {
-  alert("Firth button Clicked");
+  number = number + 1;
+
+  console.log(number);
 });
 // console.log(button);
